@@ -8,6 +8,8 @@
         text-align: center;
       }
       img {
+        text-align: center;
+        margin: -2px;
         width: 400px;
         height: 400px;
         display: inline-block;
@@ -20,9 +22,9 @@
     $a = 1;
       for ($y=0; $y < 5; $y++) {
        for ($x=0; $x < $a; $x++) {
-        ?> <img src='brick.jpg' alt='aaa'> <?php
+        ?> <img src='brick.jpg' alt='aaAAAAAAAAaa'> <?php
         }
-          $a++;
+          $a=$a+2;
           echo "<br>";
       }
     ?>
